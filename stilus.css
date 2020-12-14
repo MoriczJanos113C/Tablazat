@@ -1,0 +1,24 @@
+table,td,th { 
+    padding:5px;
+    text-align:center;
+    /**border-collapse: collapse;*/
+    border:1px dotted rgb(17, 0, 255);
+    border-spacing: 15px;
+  }
+  .cella
+  {
+    background-color: black;
+    color: aqua;
+  }
+  table{
+    width: 50%;
+  }
+  td{
+    height: 50px;
+  }
+#t2
+{
+  background-image:url('kepek/macska.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}

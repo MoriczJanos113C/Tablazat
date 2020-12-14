@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--ez a weboldal reszponzivitását állítja be telóra tabletre stb.-->
+    <title>Táblázatok</title>
+    <link rel="icon" href="faviconnyuszika.jpg" type="image/jpg" sizes="16x16"><!--type ugyanaz mint a fájlkiterjesztás, méret mindig legyen 16x16-->
+    <link rel="stylesheet" href="stilus.css"><!--hozzá való css hivatkozás-->
+    <script src=""></script><!--itt lesz egy js fájl-->
+</head>
+<body>
+
+    <table>
+  <tr>
+    <th>1. oszlop címe</th>
+    <th>2. oszlop címe</th>
+    <th>3. oszlop címe</th>
+  </tr>
+  <tr><!--táblázat sorai-->
+    <caption>Első táblázatom</caption>
+      <td class="cella">1. sor 1.elem</td><!--táblázat cellái-->
+      <td>1. sor 2.elem</td>
+      <td class="cella">1. sor 3.elem</td>
+  </tr>
+  <tr><!--táblázat sorai-->
+      <td>2. sor 1.elem</td><!--táblázat cellái-->
+      <td class="cella">2. sor 2.elem</td>
+      <td>2. sor 3.elem</td>
+  </tr>
+  <tr><!--táblázat sorai-->
+      <td class="cella">3. sor 1.elem</td><!--táblázat cellái-->
+      <td>3. sor 2.elem</td>
+      <td class="cella">3. sor 3.elem</td>
+  </tr>
+    </table>
+
+    <table id="t2">
+    <tr>
+      <th>1. oszlop címe</th>
+      <th>2. oszlop címe</th>
+      <th>3. oszlop címe</th>
+    </tr>
+    <tr><!--táblázat sorai-->
+      <caption>Második táblázatom</caption>
+        <td class="cella">1. sor 1.elem</td><!--táblázat cellái-->
+        <td colspan="3">1. sor 2.elem</td>
+        <td class="cella">1. sor 3.elem</td>
+    </tr>
+    <tr><!--táblázat sorai-->
+        <td rowspan="2">2-3. sor 1.elem</td><!--táblázat cellái-->
+        <td class="cella">2. sor 2.elem</td>
+        <td>2. sor 3.elem</td>
+    </tr>
+    <tr><!--táblázat sorai-->
+        <td class="cella">3. sor 1.elem</td><!--táblázat cellái-->
+        <td>3. sor 2.elem</td>
+        <td>3. sor 3.elem</td>
+    </tr>
+
+      </table>
+      </body>
+</html>
